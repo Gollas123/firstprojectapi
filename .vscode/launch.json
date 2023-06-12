@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "thirdController",
+            "request": "launch",
+            "mainClass": "com.myfirstspringproject.thirdController",
+            "projectName": "first-spring-restapi"
+        },
+        {
+            "type": "java",
+            "name": "firstController",
+            "request": "launch",
+            "mainClass": "com.myfirstspringproject.firstspringrestapi.firstController",
+            "projectName": "first-spring-restapi"
+        },
+        {
+            "type": "java",
             "name": "secondController",
             "request": "launch",
             "mainClass": "com.myfirstspringproject.firstspringrestapi.secondController",

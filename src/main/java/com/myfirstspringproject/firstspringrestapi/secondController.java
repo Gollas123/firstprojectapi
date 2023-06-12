@@ -3,7 +3,7 @@ package com.myfirstspringproject.firstspringrestapi;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fasterxml.jackson.databind.util.JSONPObject;
+// import com.fasterxml.jackson.databind.util.JSONPObject;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -17,7 +17,7 @@ import java.util.Scanner;
 @RestController
 public class secondController {
 
-    @GetMapping("/weather")
+    @GetMapping("/weather1")
     public static void main(String[] args) {
 
         /*
@@ -65,12 +65,13 @@ public class secondController {
                 JSONArray dataObject = (JSONArray) parse.parse(String.valueOf(informationString));
 
                 //Get the first JSON object in the JSON array
-                System.out.println(dataObject.get(0));              
+                System.out.println(dataObject.get(1).toString());              
 
                 JSONObject countryData = (JSONObject) dataObject.get(0);
 
                 System.out.println(countryData.get("location_type"));
 
+               
             }
         } catch (Exception e) {
             e.printStackTrace();
