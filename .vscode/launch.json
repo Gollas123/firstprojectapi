@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "secondController",
+            "request": "launch",
+            "mainClass": "com.myfirstspringproject.firstspringrestapi.secondController",
+            "projectName": "first-spring-restapi"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-FirstSpringRestapiApplication<first-spring-restapi>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.myfirstspringproject.firstspringrestapi.FirstSpringRestapiApplication",
+            "projectName": "first-spring-restapi",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
